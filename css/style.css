@@ -1,0 +1,145 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body  {
+  display: flex;
+  align-items: center;
+  /* width: 375px; */
+  font-family: 'SF Pro Text', sans-serif;
+  /* font-size: 16px; */
+  line-height: 26px;
+  justify-content: center;
+  background-color: #606060;
+}
+
+.bus {
+  font-weight: 200;
+  border-color: #000000;
+  border-width: 5px;
+}
+
+.bus_name {
+  font-weight: 350;
+  font-size: 14px;
+  border-radius: 30px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  background-color: #79C8A6;
+  padding-top: 4px;
+}
+
+.bus_name, .destination, .arrives, .time {
+  font-family: 'SF Pro Text';
+   display: inline-block;
+   padding-top: 5px;
+   font-size: 16px;
+}
+
+.arrives{
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 8px;
+  /* color: #79C8A9; */
+}
+
+.current_stop, .current_stop_name {
+  background-color: #ffffff;
+  display: inline;
+  font-weight: 200;
+  margin-left: 13px;
+}
+
+.current_stop{
+  font-family: 'Source Sans Pro';
+}
+
+.current_stop_name {
+ font-weight: 400;
+ color: #007AFF;
+}
+
+.destination {
+  padding-left: 12px;
+  font-size: 14px;
+}
+
+.direction, .Out_of_service {
+  display: block;
+  font-size: 18px;
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.error {
+ color: orange;
+}
+
+
+.line1, .last_line{
+ border: 0.5px solid #BCBBC1 ;
+ /* margin-top: 5px; */
+ background-color: red;
+}
+
+.line {
+ border: 0.5px solid #BCBBC1 ;
+ margin-left: 45px;
+ /* margin-top: 5px; */
+}
+
+/* .Out_of_service .destination{
+  background-color: #EAF9F2;
+} */
+
+.Out_of_service .time{
+  background-color: #EAF9F2;
+}
+
+.screen {
+  background-color: white;
+  display: block;
+}
+
+.time {
+  font-style: italic;
+  font-weight: 300;
+  float: right;
+  padding-right: 10px;
+  padding-left: 5px;
+  font-size: 11px;
+}
+
+.toolbar {
+    background-color: #F8F8F8;
+    height: 30px;
+}
+
+.toolbar img {
+  /* font-size: 10px; */
+  display: inline-block;
+  margin-left: 42px;
+  margin-top: 4px;
+  /* margin-bottom: 8px; */
+}
+
+ .icon_names {
+  background-color: #F8F8F8;
+}
+
+.icon_names li {
+  font-size: 10px;
+  display: inline-block;
+  margin-left: 33px;
+  /* margin-top: 10px; */
+  /* margin-bottom: 8px; */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
