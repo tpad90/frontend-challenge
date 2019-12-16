@@ -74,6 +74,10 @@ body  {
   padding-top: 15px;
 }
 
+.last_line {
+  margin-bottom: 60px;
+}
+
 .error {
  color: orange;
 }
@@ -89,6 +93,11 @@ body  {
  border: 0.5px solid #BCBBC1 ;
  margin-left: 45px;
  /* margin-top: 5px; */
+}
+
+.schedule {
+  width: 375px;
+  margin-top: 30px;
 }
 
 /* .Out_of_service .destination{
@@ -130,10 +139,23 @@ body  {
   background-color: #F8F8F8;
 }
 
+.status_bar{
+  width: 375px;
+  position: fixed;
+  top: 0;
+}
+
+.bottom_toolbar {
+  width: 375px;
+  position: fixed;
+  bottom: 0;
+}
+
 .icon_names li {
   font-size: 10px;
   display: inline-block;
   margin-left: 33px;
+  /* position: fixed; */
   /* margin-top: 10px; */
   /* margin-bottom: 8px; */
 }
